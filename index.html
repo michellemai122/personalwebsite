@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Mai Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7afa72de5.js" crossorigin="anonymous"></script></head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images-michelle  /michlogo.png" class="logo">
+            <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servies">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contant">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hello, I'm <br><span>Michelle</span> Mai</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------ABOUT ME--------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images-michelle  /phonebackgroundmichelle2.png" class="about-image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Michelle Mai, a rising sophomore at Columbia University with a keen interest in software engineering and its diverse applications. I have taken classes in both Java and Python, and during my free time, I work as an Artificial Developer for Outlier, where I review and provide input on artificial intelligence code. In the summer of 2024, I had the privilege of working with Dr. Chen, an IEEE member, on his electromagnetism research at the University of Houston. During my time there, I learned to use software like LabVIEW and MATLAB to analyze data, aiming to improve patient outcomes during MRI procedures. <br><br>
+
+                    Looking ahead, I am eager to continue exploring the software engineering environment and its various facets. As a first-generation college student, I aspire to mentor others who share a similar background, helping them navigate and succeed in the tech industry.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>IU/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Data Analysis </span><br>Analysis MRI data from machine to determine patient safety suing different softwares</li>
+                            <li><span>Artifical Intelligence Developer</span><br>Reviews and comments on AI generated reponse to detemrine effectiveness</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>June 2024 - Current </span><br>Artifical Intelligence Developer at Outlier</li>
+                            <li><span>May 2024 - July 2024</span><br>Lab assitant at the University of Houston</li>
+                            <li><span>July 2024 - Current</span><br>Student Intern at VentureStarters</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br> Bachelor's of Science at Columbia University</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----SERVICES-------->
+<div id="servies">
+    <div class="containe">
+        <h1 class="sub-title">My Services</h1>
+        <div class="servies-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Passionate web developer adept at creating dynamic and responsive websites, with a keen interest in front-end technologies and user experience design</p>
+              <!--  <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Enthusiastic UI/UX designer dedicated to crafting intuitive and engaging user interfaces, with a strong focus on user-centered design principles and seamless user experiences</p>
+              <!--  <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Creative app designer skilled in developing user-friendly and visually appealing mobile applications, prioritizing functionality and a seamless user experience</p>
+              <!--  <a href="#">Learn more</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!------------PORTFOLIO-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <!-- (this is the github but i am taking out right now)
+                <img src="images-michelle  /github-logo.png" >
+                <div class="layer">
+                    <h3>Projects</h3>
+                    <p>Description of project</p>
+                    <a href="https://github.com/michellemai122" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>                
+                </div>
+                -->
+                <img src="images-michelle  /Voting Machine logo.png" >
+                <div class="layer">
+                    <h3>Voting Machine</h3>
+                    <p>Designed and implemented a digital voting machine using logic gates to count binary numbers, showcasing proficiency in hardware simulation and digital design. Demonstrated the ability to apply complex logic to create functional and innovative solutions. </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images-michelle  /Ppaerrockscissors.png" >
+                <div class="layer">
+                    <h3>Paper Rock Scissors Human VS. Machine</h3>
+                    <p>Developed a Rock-Paper-Scissors game against a computer with randomized choices using logic gates, showcasing proficiency in digital logic design and hardware simulation. Demonstrated analytical thinking and problem-solving skills by implementing complex algorithms to create an engaging and functional interactive experience. </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images-michelle  /ressitor.png" >
+                <div class="layer">
+                    <h3>Resistor Value Calculator</h3>
+                    <p> Designed a Resistor Value Calculator that utilized op-amp configurations, voltage dividers, and comparators to accurately measure resistance values. Demonstrated the ability to integrate complex circuitry with automated measurement processes, ensuring precise and reliable results. </p>
+                </div>
+            </div>
+        </div>
+       <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+<!------------CONTACT ----------->
+<div id="contant">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> michelle.mai.3202@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 3463146543</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/michellehmai "><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images-michelle  /MichelleH_Mai_Resume-3.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-rigth">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type= "Submit" class="btn"> Submit</button>
+                </form>
+                <span id="msg">  </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        } 
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzhwunF8bjXyjA9WGI5hxvveXNdJUxI5Z8cjkBDAYh_wexIK4sHowga_PXvAXKoqggR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
